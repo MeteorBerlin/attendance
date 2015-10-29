@@ -15,7 +15,19 @@ if (Meteor.isClient) {
     }
   });
 }
+// code for questionnaire begins
+var userData = prompt("Do you use Meteor?")
+console.log(userData)
 
+
+
+
+
+
+
+
+
+// code for questionnaire ends
 if (Meteor.isServer) {
   Meteor.startup(function () {
     // code to run on server at startup

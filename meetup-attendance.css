@@ -1,68 +1,17 @@
 /* CSS declarations go here */
 
-body {
-	font-family:arial;
-	font-color:#622323;
-	background-color: #F2F3F5;
 
-}
-li {
-	list-style-type: none;
-	line-height: 30px;
+.row{
 	
-	
+	}
+
+div {
+	margin:.5em;
+
+}	
+
+.container-fluid {
+	background-color: #FFF6B0;
 }
 
-ul {
-	margin-left: 150px;
-	padding-top:55px;
 
-}
-img {
-	width:12px;
-	height:12px
-
-}
-
-.head {
-	font-size: 24px;
-	font-weight: 900;
-
-}
-.subhead {
-	font-size: 20px;
-	font-weight: 400;
-}
-
-.tabbox {
-	margin: 350px;
-	margin-top: 150px;
-	width:500px; 
-	height:300px;
-	border-radius: 4px;
-	position: center;
-	background-color: green;
-	-moz-box-shadow: 0 4 3px #000000;
-	-webkit-box-shadow: 0 4 3px #000000;
-	box-shadow: 5 4 3px #000000;
-}
-
-.pan {
- width: 100px;
- height: 100px;
- margin-left: 70px;
- margin-top:-200px;
- background-image: url('mam.jpg');
- background-size: cover;
- display: block;
- border-style: solid; 
- border-color: #C27F7F;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-}
-
-.foot {
-	margin-left: 58px;
-	margin-top: 125px;
-}
